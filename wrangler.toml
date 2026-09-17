@@ -6,13 +6,9 @@ compatibility_date = "2025-01-01"
 directory = "./public"
 binding = "ASSETS"
 
-# Create this namespace in the Cloudflare dashboard (Workers & Pages -> KV),
-# then replace the id below with the one it gives you -- or bind it under
-# the same name ("STATE_KV") directly on the Worker's Settings page instead
-# of editing this file.
 [[kv_namespaces]]
 binding = "STATE_KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "9d3411e8e9614ffea7d3d2cb53199126"
 
 # The family PIN is set separately as an encrypted secret/environment
 # variable named PIN on the Worker (Settings -> Variables) -- never here,
